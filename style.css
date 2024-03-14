@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/foto-de-vista-superior-de-cadernos-de-papelaria-canetas-fichario-clipes-lupa-xicara-de-cafe-e-oculos-no-fundo-da-mesa-de-madeira-isolada-com-copyspace-a-direit.avif);
+    background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.lapis{
+    height: 80vh;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.borracha{
+    height: 15vh;
+    width: 10vw;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+.container{
+    padding: 1vh 3vw;
+    border-radius: 10px;
+    max-width: 35vw;
+    height: 80vh;
+}
+
+.container input{
+    border-radius: 10px;
+    padding: 0.4vh 0vw;
+    border: 1px solid rgba(0, 0, 0, 0.548); 
+}
+
+#caderneta{
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    right: 25vw;
+}
+
+#taskInput{
+    margin: 2vh 0vw;
+    text-align: center;
+}
+
+.container button{
+    border-radius: 10px;
+    padding: 0.4vh 1vw;
+    margin: 2vh 1vw;
+    cursor: pointer;
+    border: 1px solid rgba(58, 58, 58, 0.562); 
+    transition: 0.3s;
+}
+
+.container button:hover{
+    transition: 0.3s;
+    background-color: rgba(236, 223, 47, 0.637);
+}
+
+body .buttons{
+    width: 25vw;
+    margin: 0vh 0vw 0vh 4vw;
+}
+
+.buttons button{
+margin-left: 0vw;
+background-color: rgba(255, 255, 255, 0.281);
+color: rgba(0, 0, 0, 0.863);
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.1vh;
+}
+
+#taskList{
+    list-style-type: none;
+    max-width: 25vw;
+    overflow-wrap: break-word;
+}
+
+li{
+    margin-left: 4vw;
+
+}

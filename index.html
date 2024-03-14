@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/caderneta.png">
+    <title>Tarefa</title>
+</head>
+<body>
+    
+    <img src="img/borracha-removebg-preview.png" class="borracha" onclick="removeTask()" alt="">
+    <img id="caderneta" src="img/caderno-removebg-preview.png" alt="">
+    <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <div class="buttons">
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+        <button>Adicionar Tarefa</button>
+    </div>
+    <ul id="taskList">
+        <!--Lista de tarefas será inserida aqui-->
+    </ul>
+    </div>
+
+    <img class="lapis" src="img/lapis-removebg-preview.png" alt="" onclick="addTask()">
+    
+    <script src="main.js"></script>
+</body>
+</html>
